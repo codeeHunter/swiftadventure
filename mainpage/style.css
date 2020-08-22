@@ -1,8 +1,28 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.background {
+	width: 100%;
+	height: 800px;
+	background:	url('img/Ellipse 10.svg') 880px 670px no-repeat, 
+	url('img/Ellipse 11.svg') 750px 130px no-repeat, 
+	url('img/Group 60.svg') 95px 404px no-repeat, 
+	url('img/Group 61.svg') 860px 400px no-repeat, 
+	url('img/Group 62.svg') 256px 42px no-repeat, 
+	url('img/Polygon 10.svg') 531px 549px no-repeat, 
+	url('img/Ellipse 9.svg') 0px 277px no-repeat;
+	background-color: #000;
+};
+
 body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 .container {
   width: 80%;
@@ -11,7 +31,6 @@ body {
 
 header {
   height: 100px;
-  background: #01100F;
 }
 
 nav {
@@ -89,11 +108,6 @@ nav a {
 }
 
 
-main {
-  background: #01100F;
-  height: 100vh; 
-}
-
 .box {
   width: 60%;
   margin: 0 auto;
@@ -169,7 +183,7 @@ footer {
   height: 100px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: column;
 }
 
@@ -178,5 +192,5 @@ footer a {
   font-size: 24px;
   color: #FEFAFA;
   text-align: center;
-  padding-right: 50px;
+  padding-left: 50px;
 }
