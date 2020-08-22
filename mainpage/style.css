@@ -43,11 +43,20 @@ nav a {
   color: #fff;
 }
 
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+}
+
 .nav {
-  height: 70px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .log {
@@ -107,6 +116,121 @@ nav a {
   line-height: 16px;
 }
 
+
+.button {
+	position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonBg {
+	display: inline-block;
+	padding: 20px;
+  width: 247px;
+	height: 104px;
+	border: none;
+	border-radius: 45px;
+	background: radial-gradient(101.71% 667.73% at 16.95% 25.25%, #1EEADE 21.73%, rgb(33, 88, 228) 97.84%);
+	box-shadow: 0px 3.78302px 4.72877px #40DBD2;
+	font-size: 45px;
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+}
+
+.entry {
+  position: absolute;
+  right: 340px;
+  top: 16px;
+	width: 85px;
+	height: 35px;
+	background-color: transparent;
+	border: 4px solid #FFF9F9;
+	border-radius: 51px;
+	transform: rotate(-8.78deg);
+	transition: 0.6s ease all;
+	-moz-transition: 0.6s ease all;
+	-webkit-transition: 0.6s ease all;
+	cursor: pointer;
+}
+
+
+.headerBtn {
+	margin-left: auto;
+	position: relative;
+}
+
+.headerBtn--bg {
+	display: inline-block;
+	padding: 10px;
+	width: 84px;
+	height: 35px;
+	border: none;
+	border-radius: 40px;
+	background: radial-gradient(101.71% 667.73% at 16.95% 25.25%, #1EEADE 21.73%, rgb(33, 88, 228) 97.84%);
+	box-shadow: 0px 3.78302px 4.72877px #40DBD2;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+.headerBtn--block {
+	position: absolute;
+	width: 87px;
+	height: 37px;
+	background-color: transparent;
+	border: 2px solid #FFF9F9;
+	border-radius: 51px;
+	transform: rotate(-8.78deg);
+	transition: 0.6s ease all;
+	-moz-transition: 0.6s ease all;
+	-webkit-transition: 0.6s ease all;
+	cursor: pointer;
+}
+
+.headerBtn--block:hover {
+	transform: none;
+}
+
+.entry1 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	padding: 20px;
+  width: 85px;
+	height: 5px;
+	border: none;
+	border-radius: 45px;
+	background: radial-gradient(101.71% 667.73% at 16.95% 25.25%, #1EEADE 21.73%, rgb(33, 88, 228) 97.84%);
+	box-shadow: 0px 3.78302px 4.72877px #40DBD2;
+	font-size: 24px;
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+}
+
+.entry:hover {
+  transform: none;
+}
+ 
+.buttonBlock {
+  position: absolute;
+	width: 254px;
+	height: 108px;
+	background-color: transparent;
+	border: 4px solid #FFF9F9;
+	border-radius: 51px;
+	transform: rotate(-8.78deg);
+	transition: 0.6s ease all;
+	-moz-transition: 0.6s ease all;
+	-webkit-transition: 0.6s ease all;
+	cursor: pointer;
+}
+
+.buttonBlock:hover {
+	transform: none;
+}
 
 .box {
   width: 60%;
